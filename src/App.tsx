@@ -6,7 +6,7 @@ import Dashboard from './pages/Dashboard';
 
 const router = createBrowserRouter([
   {
-    path: "/signup",
+    path: "/",
     element: <Signup/>,
   },
   {
