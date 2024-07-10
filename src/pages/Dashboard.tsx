@@ -20,7 +20,7 @@ const Dashboard: React.FC = () => {
       {!formData ? (
         <Box display={"flex"} justifyContent={"center"} alignItems={"center"} sx={{ height: "100vh" }}>
         <Typography variant="h5" align="center" sx={{ marginTop: 5,textDecoration:"underline"}}>
-          <Link  to="/signup">
+          <Link  to="/">
             Sign up to access the dashboard
           </Link>
         </Typography>
